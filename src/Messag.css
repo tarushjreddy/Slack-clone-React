@@ -28,3 +28,6 @@ border-radius: 50px;
       margin-left: 10px;
     color: gray;
 }
+.Chat_headder{
+    display: flex;
+}

@@ -19,7 +19,7 @@ function ChatInput({ channelId, ChannelName }) {
         .collection("messages")
         .add({
           message: input,
-
+          timestamp: null,
           username: user.displayName,
           userImage: user.photoURL,
         });
