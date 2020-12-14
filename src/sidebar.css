@@ -1,0 +1,67 @@
+.division{
+    background-color: #3f0f40;
+    height: 100vh;
+
+    width: 20vw;
+
+}
+.sidebar_header{
+    height: 100px;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+display: flex;
+align-items: center;
+justify-content: space-between;
+    margin: 0px;
+    padding: 0;
+}
+hr{
+    margin: 0;
+    opacity: 0.3;
+}
+.sidebar_header > .MuiSvgIcon-root{
+    padding: 8px;
+    font-size: 58px;
+    background-color: transparent;
+  
+    
+
+}
+.progress{
+    display: flex;
+    align-items: center;
+}
+.progress > .MuiSvgIcon-root{
+color: palegreen;
+padding-left: 10px;
+padding-right: 5px;
+  
+    
+
+}
+.sidebar_info{
+    padding-right: 10px;
+}
+.sidebar_info >h2{
+    font-size: 18px;
+    margin-left: 10px;
+}
+.MuiSvgIcon-root{
+    padding: 8px;
+    font-size: 38px;
+    background-color: transparent;
+  color: white;
+    
+
+}
+.sidebar_header_one{
+    max-height: 50px;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+.sidebar_header_one:hover{
+    background-color: #340e36;
+    opacity: 0.9;
+}

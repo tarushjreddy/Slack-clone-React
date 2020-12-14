@@ -1,0 +1,23 @@
+.tag-line{
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.sidebaricon_option{
+    color: white;
+    max-height: 50px;
+    margin: 0px !important;
+    padding: 0px !important;
+
+}
+.option{
+    cursor: pointer;
+    display: flex;
+    padding: 1px;
+    align-items: center;
+    
+
+}

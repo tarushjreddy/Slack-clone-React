@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
 .App {
   text-align: center;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 .App-logo {
@@ -14,14 +19,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
@@ -35,4 +40,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* .app_body{
+  display: flex;
+  align-items: center;
+}
+.depart{
+  display: flex;
+  flex: 0.4;
+} */
+.sidebar_header_one{
+  height: 70px;
+}
+.app_body{
+  display: flex;
+}
+body{
+  overflow: hidden;
 }

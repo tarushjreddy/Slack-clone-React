@@ -1,0 +1,39 @@
+.Login_credentials{
+ height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Login_credentials > img{
+height: 200px;
+width: 200px; 
+border-radius: 150px;
+
+}
+.Login_credentials > h1{
+font-size: 20px;
+}
+span{
+    display: flex;
+    align-items: center;
+}
+p{
+    margin-right: 40px;
+}
+button{
+    height: 50px;
+    border: none;
+    outline:  none;
+    font-weight: 800;
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    transition: 200ms all ease-in-out;
+
+}
+button:hover{
+    background-color: rgba(69, 0, 230, 0.842);
+    color: white;
+}

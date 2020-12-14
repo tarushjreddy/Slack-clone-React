@@ -1,0 +1,30 @@
+.logo_chat{
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 30px;
+    box-shadow: 0.5px 0.5px 2px black;
+border-radius: 50px;
+}
+.Chat_headder{
+    display: flex;
+    align-items: baseline;
+
+    margin-top: 10px;
+}
+.username_chat{
+    margin-right: 10px;
+}
+.update{
+    font-size: 15px;
+    color: gray;
+}
+.Chat_Message{
+    display: flex;
+    margin-left: 20px;
+}
+.update_time{
+      font-size: 10px;
+      margin-left: 10px;
+    color: gray;
+}
